@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.carcass_table > tbody > tr > td {
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	vertical-align: top;
+}
+
+.carcass_table > tbody > tr:last-of-type > td {
+	border-bottom: none;
+}
+
+.carcass_table > tbody > tr > td:last-of-type {
+	border-right: none;
+}
+
+img.left {
+	float: left;
+}
+
+img.right {
+	float: right;
+}
+
+img.full {
+	width: 100%;
+}
+
+img {
+	display: block;
+	padding: 12px;
+}
